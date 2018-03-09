@@ -1,0 +1,23 @@
+platform :ios, '9.0'
+target 'LearningProgram' do
+    # 网络请求
+    pod 'AFNetworking'
+    # 网络监控
+    pod 'Reachability'
+    #字典转模型
+    pod 'MJExtension'
+    # 下拉刷新
+    pod 'MJRefresh'
+    # 图片加载
+    pod 'SDWebImage'
+    #用于适配
+    pod 'Masonry'
+    # 数据库
+    pod 'FMDB'
+    # 蒙版
+    pod 'MBProgressHUD'
+    # h5交互
+    pod 'WebViewJavascriptBridge'
+    # 唯一设备标识
+    pod 'FCUUID'
+end

@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		519E6B9C20523A9600CBDE5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6B9B20523A9600CBDE5E /* AppDelegate.m */; };
-		519E6B9F20523A9600CBDE5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6B9E20523A9600CBDE5E /* ViewController.m */; };
-		519E6BA220523A9600CBDE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519E6BA020523A9600CBDE5E /* Main.storyboard */; };
 		519E6BA420523A9600CBDE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519E6BA320523A9600CBDE5E /* Assets.xcassets */; };
-		519E6BA720523A9600CBDE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519E6BA520523A9600CBDE5E /* LaunchScreen.storyboard */; };
 		519E6BAA20523A9600CBDE5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BA920523A9600CBDE5E /* main.m */; };
 		519E6BB420523A9600CBDE5E /* LearningProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BB320523A9600CBDE5E /* LearningProgramTests.m */; };
 		519E6BBF20523A9700CBDE5E /* LearningProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BBE20523A9700CBDE5E /* LearningProgramUITests.m */; };
+		519E6BE220525EAD00CBDE5E /* HS_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */; };
+		519E6BE720525F6200CBDE5E /* HS_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BE620525F6200CBDE5E /* HS_NavigationController.m */; };
+		519E6BF120526A1C00CBDE5E /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BEC20526A1C00CBDE5E /* UIColor+ChameleonPrivate.m */; };
+		519E6BF220526A1C00CBDE5E /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BEE20526A1C00CBDE5E /* UIColor+Chameleon.m */; };
+		CA1B2081942F0FBA3C5424CF /* libPods-LearningProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +40,7 @@
 		519E6B9720523A9600CBDE5E /* LearningProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519E6B9A20523A9600CBDE5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		519E6B9B20523A9600CBDE5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		519E6B9D20523A9600CBDE5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		519E6B9E20523A9600CBDE5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		519E6BA120523A9600CBDE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		519E6BA320523A9600CBDE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		519E6BA620523A9600CBDE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		519E6BA820523A9600CBDE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519E6BA920523A9600CBDE5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		519E6BAF20523A9600CBDE5E /* LearningProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,20 @@
 		519E6BBA20523A9700CBDE5E /* LearningProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519E6BBE20523A9700CBDE5E /* LearningProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningProgramUITests.m; sourceTree = "<group>"; };
 		519E6BC020523A9700CBDE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519E6BCE20523F8C00CBDE5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		519E6BE020525EAD00CBDE5E /* HS_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS_BaseViewController.h; sourceTree = "<group>"; };
+		519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HS_BaseViewController.m; sourceTree = "<group>"; };
+		519E6BE520525F6200CBDE5E /* HS_NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_NavigationController.h; sourceTree = "<group>"; };
+		519E6BE620525F6200CBDE5E /* HS_NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_NavigationController.m; sourceTree = "<group>"; };
+		519E6BEB20526A1C00CBDE5E /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		519E6BEC20526A1C00CBDE5E /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		519E6BED20526A1C00CBDE5E /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		519E6BEE20526A1C00CBDE5E /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		519E6BEF20526A1C00CBDE5E /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		519E6BF020526A1C00CBDE5E /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		6631E6DCF76C70CCEF2AC0F3 /* Pods-LearningProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.release.xcconfig"; sourceTree = "<group>"; };
+		6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearningProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABF8CC79212E58387CC3BA6 /* Pods-LearningProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1B2081942F0FBA3C5424CF /* libPods-LearningProgram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0045668A5D1ECDB01FA3A325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF8CC79212E58387CC3BA6 /* Pods-LearningProgram.debug.xcconfig */,
+				6631E6DCF76C70CCEF2AC0F3 /* Pods-LearningProgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		519E6B8E20523A9600CBDE5E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				519E6BB220523A9600CBDE5E /* LearningProgramTests */,
 				519E6BBD20523A9700CBDE5E /* LearningProgramUITests */,
 				519E6B9820523A9600CBDE5E /* Products */,
+				0045668A5D1ECDB01FA3A325 /* Pods */,
+				B3C2E37896F34D56E88D0D41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +125,14 @@
 		519E6B9920523A9600CBDE5E /* LearningProgram */ = {
 			isa = PBXGroup;
 			children = (
+				519E6BE9205269FE00CBDE5E /* Category */,
+				519E6BDA20525E2300CBDE5E /* BaseClass */,
+				519E6BDB20525E3500CBDE5E /* Main */,
 				519E6B9A20523A9600CBDE5E /* AppDelegate.h */,
 				519E6B9B20523A9600CBDE5E /* AppDelegate.m */,
-				519E6B9D20523A9600CBDE5E /* ViewController.h */,
-				519E6B9E20523A9600CBDE5E /* ViewController.m */,
-				519E6BA020523A9600CBDE5E /* Main.storyboard */,
 				519E6BA320523A9600CBDE5E /* Assets.xcassets */,
-				519E6BA520523A9600CBDE5E /* LaunchScreen.storyboard */,
 				519E6BA820523A9600CBDE5E /* Info.plist */,
-				519E6BA920523A9600CBDE5E /* main.m */,
+				519E6BD02052402F00CBDE5E /* Supporting Files */,
 			);
 			path = LearningProgram;
 			sourceTree = "<group>";
@@ -132,6 +155,86 @@
 			path = LearningProgramUITests;
 			sourceTree = "<group>";
 		};
+		519E6BD02052402F00CBDE5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				519E6BA920523A9600CBDE5E /* main.m */,
+				519E6BCE20523F8C00CBDE5E /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		519E6BDA20525E2300CBDE5E /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				519E6BDF20525EAD00CBDE5E /* BaseControllers */,
+				519E6BE320525EEF00CBDE5E /* BaseModels */,
+				519E6BE420525EEF00CBDE5E /* BaseViews */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		519E6BDB20525E3500CBDE5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		519E6BDF20525EAD00CBDE5E /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				519E6BE020525EAD00CBDE5E /* HS_BaseViewController.h */,
+				519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */,
+				519E6BE520525F6200CBDE5E /* HS_NavigationController.h */,
+				519E6BE620525F6200CBDE5E /* HS_NavigationController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		519E6BE320525EEF00CBDE5E /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		519E6BE420525EEF00CBDE5E /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		519E6BE9205269FE00CBDE5E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				519E6BEA20526A1C00CBDE5E /* Chameleon */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		519E6BEA20526A1C00CBDE5E /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				519E6BED20526A1C00CBDE5E /* Chameleon.h */,
+				519E6BEB20526A1C00CBDE5E /* ChameleonMacros.h */,
+				519E6BF020526A1C00CBDE5E /* UIColor+Chameleon.h */,
+				519E6BEE20526A1C00CBDE5E /* UIColor+Chameleon.m */,
+				519E6BEF20526A1C00CBDE5E /* UIColor+ChameleonPrivate.h */,
+				519E6BEC20526A1C00CBDE5E /* UIColor+ChameleonPrivate.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		B3C2E37896F34D56E88D0D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 519E6BC320523A9700CBDE5E /* Build configuration list for PBXNativeTarget "LearningProgram" */;
 			buildPhases = (
+				9F031769D7E567EF3481C1B4 /* [CP] Check Pods Manifest.lock */,
 				519E6B9320523A9600CBDE5E /* Sources */,
 				519E6B9420523A9600CBDE5E /* Frameworks */,
 				519E6B9520523A9600CBDE5E /* Resources */,
+				E994FE900899A90432D53CF2 /* [CP] Embed Pods Frameworks */,
+				9B8ADD64D707A2AF8911C7C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519E6BA720523A9600CBDE5E /* LaunchScreen.storyboard in Resources */,
 				519E6BA420523A9600CBDE5E /* Assets.xcassets in Resources */,
-				519E6BA220523A9600CBDE5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +364,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B8ADD64D707A2AF8911C7C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F031769D7E567EF3481C1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningProgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E994FE900899A90432D53CF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		519E6B9320523A9600CBDE5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519E6B9F20523A9600CBDE5E /* ViewController.m in Sources */,
+				519E6BF220526A1C00CBDE5E /* UIColor+Chameleon.m in Sources */,
+				519E6BF120526A1C00CBDE5E /* UIColor+ChameleonPrivate.m in Sources */,
 				519E6BAA20523A9600CBDE5E /* main.m in Sources */,
 				519E6B9C20523A9600CBDE5E /* AppDelegate.m in Sources */,
+				519E6BE720525F6200CBDE5E /* HS_NavigationController.m in Sources */,
+				519E6BE220525EAD00CBDE5E /* HS_BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +462,6 @@
 			targetProxy = 519E6BBB20523A9700CBDE5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		519E6BA020523A9600CBDE5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				519E6BA120523A9600CBDE5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		519E6BA520523A9600CBDE5E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				519E6BA620523A9600CBDE5E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		519E6BC120523A9700CBDE5E /* Debug */ = {
@@ -428,27 +570,35 @@
 		};
 		519E6BC420523A9700CBDE5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABF8CC79212E58387CC3BA6 /* Pods-LearningProgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearningProgram/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = LearningProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HS.LearningProgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HS.LearningProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		519E6BC520523A9700CBDE5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6631E6DCF76C70CCEF2AC0F3 /* Pods-LearningProgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LearningProgram/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = LearningProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HS.LearningProgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HS.LearningProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

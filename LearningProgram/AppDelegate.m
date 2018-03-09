@@ -17,7 +17,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    
+    [self setRootViewControllerToTabbarViewController];
+    
     return YES;
+}
+
+- (void)setRootViewControllerToTabbarViewController
+{
+    HS_BaseViewController *loginIntroViewController = [[HS_BaseViewController alloc]init];
+    HS_NavigationController *nav = [[HS_NavigationController alloc]initWithRootViewController:loginIntroViewController];
+    self.window.rootViewController = nav;
 }
 
 
