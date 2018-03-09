@@ -1,24 +1,24 @@
 //
-//  HS_BaseViewController.m
+//  DemoViewController.m
 //  LearningProgram
 //
 //  Created by RC on 2018/3/9.
 //  Copyright © 2018年 HS. All rights reserved.
 //
 
-#import "HS_BaseViewController.h"
+#import "DemoViewController.h"
 
-@interface HS_BaseViewController ()
+@interface DemoViewController ()
 
 @end
 
-@implementation HS_BaseViewController
+@implementation DemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+    self.title = NSLocalizedString(@"tab.demo", nil);
+    self.view.backgroundColor = [UIColor redColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

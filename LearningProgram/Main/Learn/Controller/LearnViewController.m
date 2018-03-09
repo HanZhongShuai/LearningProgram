@@ -1,24 +1,24 @@
 //
-//  HS_BaseViewController.m
+//  LearnViewController.m
 //  LearningProgram
 //
 //  Created by RC on 2018/3/9.
 //  Copyright © 2018年 HS. All rights reserved.
 //
 
-#import "HS_BaseViewController.h"
+#import "LearnViewController.h"
 
-@interface HS_BaseViewController ()
+@interface LearnViewController ()
 
 @end
 
-@implementation HS_BaseViewController
+@implementation LearnViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
+    self.title = NSLocalizedString(@"tab.learn", nil);
+    self.view.backgroundColor = [UIColor greenColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

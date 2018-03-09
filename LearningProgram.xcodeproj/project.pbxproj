@@ -16,6 +16,20 @@
 		519E6BE720525F6200CBDE5E /* HS_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BE620525F6200CBDE5E /* HS_NavigationController.m */; };
 		519E6BF120526A1C00CBDE5E /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BEC20526A1C00CBDE5E /* UIColor+ChameleonPrivate.m */; };
 		519E6BF220526A1C00CBDE5E /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BEE20526A1C00CBDE5E /* UIColor+Chameleon.m */; };
+		519E6BF620528C5300CBDE5E /* HS_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BF520528C5300CBDE5E /* HS_TabBarController.m */; };
+		519E6BF920528CE600CBDE5E /* HS_TabBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BF820528CE600CBDE5E /* HS_TabBarTransition.m */; };
+		519E6BFC20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6BFB20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m */; };
+		519E6BFE205292C100CBDE5E /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519E6BFD205292C100CBDE5E /* Resource.xcassets */; };
+		519E6C012052942F00CBDE5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C032052942F00CBDE5E /* Localizable.strings */; };
+		519E6C07205294F600CBDE5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C09205294F600CBDE5E /* InfoPlist.strings */; };
+		519E6C202052990400CBDE5E /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C1E2052990400CBDE5E /* PracticeViewController.m */; };
+		519E6C212052990400CBDE5E /* PracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C1F2052990400CBDE5E /* PracticeViewController.xib */; };
+		519E6C252052991A00CBDE5E /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C232052991A00CBDE5E /* LearnViewController.m */; };
+		519E6C262052991A00CBDE5E /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C242052991A00CBDE5E /* LearnViewController.xib */; };
+		519E6C2A2052993300CBDE5E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C282052993300CBDE5E /* DemoViewController.m */; };
+		519E6C2B2052993300CBDE5E /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C292052993300CBDE5E /* DemoViewController.xib */; };
+		519E6C3520529D4C00CBDE5E /* PracticeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C3320529D4C00CBDE5E /* PracticeTableViewCell.m */; };
+		519E6C3620529D4C00CBDE5E /* PracticeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C3420529D4C00CBDE5E /* PracticeTableViewCell.xib */; };
 		CA1B2081942F0FBA3C5424CF /* libPods-LearningProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +74,32 @@
 		519E6BEE20526A1C00CBDE5E /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
 		519E6BEF20526A1C00CBDE5E /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		519E6BF020526A1C00CBDE5E /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		519E6BF320527FD100CBDE5E /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		519E6BF420528C5300CBDE5E /* HS_TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TabBarController.h; sourceTree = "<group>"; };
+		519E6BF520528C5300CBDE5E /* HS_TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TabBarController.m; sourceTree = "<group>"; };
+		519E6BF720528CE600CBDE5E /* HS_TabBarTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TabBarTransition.h; sourceTree = "<group>"; };
+		519E6BF820528CE600CBDE5E /* HS_TabBarTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TabBarTransition.m; sourceTree = "<group>"; };
+		519E6BFA20528D0900CBDE5E /* HS_TabBarTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TabBarTransitionAnimation.h; sourceTree = "<group>"; };
+		519E6BFB20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TabBarTransitionAnimation.m; sourceTree = "<group>"; };
+		519E6BFD205292C100CBDE5E /* Resource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resource.xcassets; sourceTree = "<group>"; };
+		519E6C0B2052950500CBDE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		519E6C0C2052950C00CBDE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		519E6C0D2052954200CBDE5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		519E6C0E2052954A00CBDE5E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		519E6C0F2052955C00CBDE5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		519E6C102052955E00CBDE5E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		519E6C1D2052990400CBDE5E /* PracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeViewController.h; sourceTree = "<group>"; };
+		519E6C1E2052990400CBDE5E /* PracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeViewController.m; sourceTree = "<group>"; };
+		519E6C1F2052990400CBDE5E /* PracticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeViewController.xib; sourceTree = "<group>"; };
+		519E6C222052991A00CBDE5E /* LearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
+		519E6C232052991A00CBDE5E /* LearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnViewController.m; sourceTree = "<group>"; };
+		519E6C242052991A00CBDE5E /* LearnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnViewController.xib; sourceTree = "<group>"; };
+		519E6C272052993300CBDE5E /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		519E6C282052993300CBDE5E /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		519E6C292052993300CBDE5E /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		519E6C3220529D4C00CBDE5E /* PracticeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeTableViewCell.h; sourceTree = "<group>"; };
+		519E6C3320529D4C00CBDE5E /* PracticeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeTableViewCell.m; sourceTree = "<group>"; };
+		519E6C3420529D4C00CBDE5E /* PracticeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeTableViewCell.xib; sourceTree = "<group>"; };
 		6631E6DCF76C70CCEF2AC0F3 /* Pods-LearningProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.release.xcconfig"; sourceTree = "<group>"; };
 		6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearningProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABF8CC79212E58387CC3BA6 /* Pods-LearningProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +171,7 @@
 				519E6B9A20523A9600CBDE5E /* AppDelegate.h */,
 				519E6B9B20523A9600CBDE5E /* AppDelegate.m */,
 				519E6BA320523A9600CBDE5E /* Assets.xcassets */,
+				519E6BFD205292C100CBDE5E /* Resource.xcassets */,
 				519E6BA820523A9600CBDE5E /* Info.plist */,
 				519E6BD02052402F00CBDE5E /* Supporting Files */,
 			);
@@ -159,7 +200,10 @@
 			isa = PBXGroup;
 			children = (
 				519E6BA920523A9600CBDE5E /* main.m */,
+				519E6BF320527FD100CBDE5E /* Public.h */,
 				519E6BCE20523F8C00CBDE5E /* PrefixHeader.pch */,
+				519E6C032052942F00CBDE5E /* Localizable.strings */,
+				519E6C09205294F600CBDE5E /* InfoPlist.strings */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,6 +221,9 @@
 		519E6BDB20525E3500CBDE5E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				519E6C112052981F00CBDE5E /* Practice */,
+				519E6C132052983F00CBDE5E /* Learn */,
+				519E6C122052983F00CBDE5E /* Demo */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -188,6 +235,12 @@
 				519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */,
 				519E6BE520525F6200CBDE5E /* HS_NavigationController.h */,
 				519E6BE620525F6200CBDE5E /* HS_NavigationController.m */,
+				519E6BF420528C5300CBDE5E /* HS_TabBarController.h */,
+				519E6BF520528C5300CBDE5E /* HS_TabBarController.m */,
+				519E6BF720528CE600CBDE5E /* HS_TabBarTransition.h */,
+				519E6BF820528CE600CBDE5E /* HS_TabBarTransition.m */,
+				519E6BFA20528D0900CBDE5E /* HS_TabBarTransitionAnimation.h */,
+				519E6BFB20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m */,
 			);
 			path = BaseControllers;
 			sourceTree = "<group>";
@@ -225,6 +278,119 @@
 				519E6BEC20526A1C00CBDE5E /* UIColor+ChameleonPrivate.m */,
 			);
 			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		519E6C112052981F00CBDE5E /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C16205298AD00CBDE5E /* Controller */,
+				519E6C15205298AD00CBDE5E /* Model */,
+				519E6C14205298AD00CBDE5E /* View */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		519E6C122052983F00CBDE5E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C1C205298CB00CBDE5E /* Controller */,
+				519E6C1A205298CA00CBDE5E /* Model */,
+				519E6C1B205298CB00CBDE5E /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		519E6C132052983F00CBDE5E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C18205298B900CBDE5E /* Controller */,
+				519E6C19205298B900CBDE5E /* Model */,
+				519E6C17205298B900CBDE5E /* View */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		519E6C14205298AD00CBDE5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C3120529D3F00CBDE5E /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		519E6C15205298AD00CBDE5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		519E6C16205298AD00CBDE5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C1D2052990400CBDE5E /* PracticeViewController.h */,
+				519E6C1E2052990400CBDE5E /* PracticeViewController.m */,
+				519E6C1F2052990400CBDE5E /* PracticeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		519E6C17205298B900CBDE5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		519E6C18205298B900CBDE5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C222052991A00CBDE5E /* LearnViewController.h */,
+				519E6C232052991A00CBDE5E /* LearnViewController.m */,
+				519E6C242052991A00CBDE5E /* LearnViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		519E6C19205298B900CBDE5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		519E6C1A205298CA00CBDE5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		519E6C1B205298CB00CBDE5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		519E6C1C205298CB00CBDE5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C272052993300CBDE5E /* DemoViewController.h */,
+				519E6C282052993300CBDE5E /* DemoViewController.m */,
+				519E6C292052993300CBDE5E /* DemoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		519E6C3120529D3F00CBDE5E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				519E6C3220529D4C00CBDE5E /* PracticeTableViewCell.h */,
+				519E6C3320529D4C00CBDE5E /* PracticeTableViewCell.m */,
+				519E6C3420529D4C00CBDE5E /* PracticeTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B3C2E37896F34D56E88D0D41 /* Frameworks */ = {
@@ -326,6 +492,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 519E6B8E20523A9600CBDE5E;
 			productRefGroup = 519E6B9820523A9600CBDE5E /* Products */;
@@ -344,7 +511,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519E6C3620529D4C00CBDE5E /* PracticeTableViewCell.xib in Resources */,
+				519E6C2B2052993300CBDE5E /* DemoViewController.xib in Resources */,
 				519E6BA420523A9600CBDE5E /* Assets.xcassets in Resources */,
+				519E6C07205294F600CBDE5E /* InfoPlist.strings in Resources */,
+				519E6C212052990400CBDE5E /* PracticeViewController.xib in Resources */,
+				519E6C012052942F00CBDE5E /* Localizable.strings in Resources */,
+				519E6BFE205292C100CBDE5E /* Resource.xcassets in Resources */,
+				519E6C262052991A00CBDE5E /* LearnViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +597,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519E6C3520529D4C00CBDE5E /* PracticeTableViewCell.m in Sources */,
+				519E6BFC20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m in Sources */,
 				519E6BF220526A1C00CBDE5E /* UIColor+Chameleon.m in Sources */,
+				519E6BF920528CE600CBDE5E /* HS_TabBarTransition.m in Sources */,
+				519E6C2A2052993300CBDE5E /* DemoViewController.m in Sources */,
+				519E6C202052990400CBDE5E /* PracticeViewController.m in Sources */,
+				519E6BF620528C5300CBDE5E /* HS_TabBarController.m in Sources */,
 				519E6BF120526A1C00CBDE5E /* UIColor+ChameleonPrivate.m in Sources */,
+				519E6C252052991A00CBDE5E /* LearnViewController.m in Sources */,
 				519E6BAA20523A9600CBDE5E /* main.m in Sources */,
 				519E6B9C20523A9600CBDE5E /* AppDelegate.m in Sources */,
 				519E6BE720525F6200CBDE5E /* HS_NavigationController.m in Sources */,
@@ -463,11 +644,35 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		519E6C032052942F00CBDE5E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519E6C0B2052950500CBDE5E /* Base */,
+				519E6C0D2052954200CBDE5E /* en */,
+				519E6C0E2052954A00CBDE5E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		519E6C09205294F600CBDE5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519E6C0C2052950C00CBDE5E /* Base */,
+				519E6C0F2052955C00CBDE5E /* en */,
+				519E6C102052955E00CBDE5E /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		519E6BC120523A9700CBDE5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -523,6 +728,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

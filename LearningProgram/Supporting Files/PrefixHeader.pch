@@ -11,6 +11,8 @@
 
 #ifdef __OBJC__
 
+#import "Public.h"
+
 #import "HS_BaseViewController.h"
 #import "HS_NavigationController.h"
 

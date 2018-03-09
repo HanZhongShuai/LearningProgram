@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LearningProgram
+
+  Created by RC on 2018/3/9.
+  Copyright © 2018年 HS. All rights reserved.
+*/
+
+CFBundleDisplayName = "Learning Program";

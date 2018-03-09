@@ -16,6 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationBar setBarTintColor:[UIColor colorWithHexString:@"#FFC34A"]]; //导航背景颜色
+    self.navigationBar.translucent = NO;
+    
+    //Title字体、颜色
+    NSDictionary * dict = [NSDictionary dictionaryWithObjects:@[[UIColor whiteColor],[UIFont fontWithName:FontNameBold size:17]] forKeys:@[NSForegroundColorAttributeName,NSFontAttributeName]];
+    self.navigationBar.titleTextAttributes = dict;
+    
+    //去除原生黑线
+//    [self.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+//    [self.navigationBar setShadowImage:[[UIImage alloc] init]];
+    
     // Do any additional setup after loading the view.
 }
 
