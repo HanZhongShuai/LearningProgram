@@ -21,6 +21,7 @@
     [self.navigationBar setBarTintColor:[UIColor colorWithHexString:@"#FFC34A"]]; //导航背景颜色
     self.navigationBar.translucent = NO;
     
+    self.navigationBar.tintColor = [UIColor whiteColor];
     //Title字体、颜色
     NSDictionary * dict = [NSDictionary dictionaryWithObjects:@[[UIColor whiteColor],[UIFont fontWithName:FontNameBold size:17]] forKeys:@[NSForegroundColorAttributeName,NSFontAttributeName]];
     self.navigationBar.titleTextAttributes = dict;

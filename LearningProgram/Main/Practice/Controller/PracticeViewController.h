@@ -6,8 +6,8 @@
 //  Copyright © 2018年 HS. All rights reserved.
 //
 
-#import "HS_BaseViewController.h"
+#import "HS_TableViewController.h"
 
-@interface PracticeViewController : HS_BaseViewController
+@interface PracticeViewController : HS_TableViewController
 
 @end

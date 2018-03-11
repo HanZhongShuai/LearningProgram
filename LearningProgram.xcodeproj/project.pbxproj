@@ -23,13 +23,18 @@
 		519E6C012052942F00CBDE5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C032052942F00CBDE5E /* Localizable.strings */; };
 		519E6C07205294F600CBDE5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C09205294F600CBDE5E /* InfoPlist.strings */; };
 		519E6C202052990400CBDE5E /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C1E2052990400CBDE5E /* PracticeViewController.m */; };
-		519E6C212052990400CBDE5E /* PracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C1F2052990400CBDE5E /* PracticeViewController.xib */; };
 		519E6C252052991A00CBDE5E /* LearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C232052991A00CBDE5E /* LearnViewController.m */; };
 		519E6C262052991A00CBDE5E /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C242052991A00CBDE5E /* LearnViewController.xib */; };
 		519E6C2A2052993300CBDE5E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C282052993300CBDE5E /* DemoViewController.m */; };
 		519E6C2B2052993300CBDE5E /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C292052993300CBDE5E /* DemoViewController.xib */; };
 		519E6C3520529D4C00CBDE5E /* PracticeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E6C3320529D4C00CBDE5E /* PracticeTableViewCell.m */; };
 		519E6C3620529D4C00CBDE5E /* PracticeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519E6C3420529D4C00CBDE5E /* PracticeTableViewCell.xib */; };
+		828281622052C607008DD231 /* HS_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828281612052C607008DD231 /* HS_TableViewController.m */; };
+		828281652052CA48008DD231 /* HS_TableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 828281642052CA48008DD231 /* HS_TableViewItem.m */; };
+		828281682052CADC008DD231 /* HS_TableViewArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 828281672052CADC008DD231 /* HS_TableViewArrowItem.m */; };
+		8282816B2052CAFB008DD231 /* HS_ItemSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8282816A2052CAFB008DD231 /* HS_ItemSection.m */; };
+		828281752052CBD4008DD231 /* CMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 828281732052CBD4008DD231 /* CMethods.m */; };
+		8282817D2052DC29008DD231 /* AddressPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8282817C2052DC29008DD231 /* AddressPickerViewController.m */; };
 		CA1B2081942F0FBA3C5424CF /* libPods-LearningProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +95,6 @@
 		519E6C102052955E00CBDE5E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		519E6C1D2052990400CBDE5E /* PracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeViewController.h; sourceTree = "<group>"; };
 		519E6C1E2052990400CBDE5E /* PracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeViewController.m; sourceTree = "<group>"; };
-		519E6C1F2052990400CBDE5E /* PracticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticeViewController.xib; sourceTree = "<group>"; };
 		519E6C222052991A00CBDE5E /* LearnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnViewController.h; sourceTree = "<group>"; };
 		519E6C232052991A00CBDE5E /* LearnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnViewController.m; sourceTree = "<group>"; };
 		519E6C242052991A00CBDE5E /* LearnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnViewController.xib; sourceTree = "<group>"; };
@@ -103,6 +107,18 @@
 		6631E6DCF76C70CCEF2AC0F3 /* Pods-LearningProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.release.xcconfig"; sourceTree = "<group>"; };
 		6AA5BEA5B0AC75D731389CFD /* libPods-LearningProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearningProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABF8CC79212E58387CC3BA6 /* Pods-LearningProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		828281602052C607008DD231 /* HS_TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TableViewController.h; sourceTree = "<group>"; };
+		828281612052C607008DD231 /* HS_TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TableViewController.m; sourceTree = "<group>"; };
+		828281632052CA48008DD231 /* HS_TableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TableViewItem.h; sourceTree = "<group>"; };
+		828281642052CA48008DD231 /* HS_TableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TableViewItem.m; sourceTree = "<group>"; };
+		828281662052CADC008DD231 /* HS_TableViewArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_TableViewArrowItem.h; sourceTree = "<group>"; };
+		828281672052CADC008DD231 /* HS_TableViewArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_TableViewArrowItem.m; sourceTree = "<group>"; };
+		828281692052CAFB008DD231 /* HS_ItemSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HS_ItemSection.h; sourceTree = "<group>"; };
+		8282816A2052CAFB008DD231 /* HS_ItemSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HS_ItemSection.m; sourceTree = "<group>"; };
+		828281732052CBD4008DD231 /* CMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMethods.m; sourceTree = "<group>"; };
+		828281742052CBD4008DD231 /* CMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMethods.h; sourceTree = "<group>"; };
+		8282817B2052DC29008DD231 /* AddressPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressPickerViewController.h; sourceTree = "<group>"; };
+		8282817C2052DC29008DD231 /* AddressPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +181,7 @@
 		519E6B9920523A9600CBDE5E /* LearningProgram */ = {
 			isa = PBXGroup;
 			children = (
+				828281712052CBCB008DD231 /* Helpers */,
 				519E6BE9205269FE00CBDE5E /* Category */,
 				519E6BDA20525E2300CBDE5E /* BaseClass */,
 				519E6BDB20525E3500CBDE5E /* Main */,
@@ -212,8 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				519E6BDF20525EAD00CBDE5E /* BaseControllers */,
-				519E6BE320525EEF00CBDE5E /* BaseModels */,
-				519E6BE420525EEF00CBDE5E /* BaseViews */,
+				8282815E2052C219008DD231 /* BaseModels */,
+				8282815F2052C219008DD231 /* BaseViews */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -231,10 +248,12 @@
 		519E6BDF20525EAD00CBDE5E /* BaseControllers */ = {
 			isa = PBXGroup;
 			children = (
-				519E6BE020525EAD00CBDE5E /* HS_BaseViewController.h */,
-				519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */,
 				519E6BE520525F6200CBDE5E /* HS_NavigationController.h */,
 				519E6BE620525F6200CBDE5E /* HS_NavigationController.m */,
+				519E6BE020525EAD00CBDE5E /* HS_BaseViewController.h */,
+				519E6BE120525EAD00CBDE5E /* HS_BaseViewController.m */,
+				828281602052C607008DD231 /* HS_TableViewController.h */,
+				828281612052C607008DD231 /* HS_TableViewController.m */,
 				519E6BF420528C5300CBDE5E /* HS_TabBarController.h */,
 				519E6BF520528C5300CBDE5E /* HS_TabBarController.m */,
 				519E6BF720528CE600CBDE5E /* HS_TabBarTransition.h */,
@@ -243,20 +262,6 @@
 				519E6BFB20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m */,
 			);
 			path = BaseControllers;
-			sourceTree = "<group>";
-		};
-		519E6BE320525EEF00CBDE5E /* BaseModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseModels;
-			sourceTree = "<group>";
-		};
-		519E6BE420525EEF00CBDE5E /* BaseViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseViews;
 			sourceTree = "<group>";
 		};
 		519E6BE9205269FE00CBDE5E /* Category */ = {
@@ -330,7 +335,8 @@
 			children = (
 				519E6C1D2052990400CBDE5E /* PracticeViewController.h */,
 				519E6C1E2052990400CBDE5E /* PracticeViewController.m */,
-				519E6C1F2052990400CBDE5E /* PracticeViewController.xib */,
+				8282817B2052DC29008DD231 /* AddressPickerViewController.h */,
+				8282817C2052DC29008DD231 /* AddressPickerViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -391,6 +397,43 @@
 				519E6C3420529D4C00CBDE5E /* PracticeTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		8282815E2052C219008DD231 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				828281632052CA48008DD231 /* HS_TableViewItem.h */,
+				828281642052CA48008DD231 /* HS_TableViewItem.m */,
+				828281662052CADC008DD231 /* HS_TableViewArrowItem.h */,
+				828281672052CADC008DD231 /* HS_TableViewArrowItem.m */,
+				828281692052CAFB008DD231 /* HS_ItemSection.h */,
+				8282816A2052CAFB008DD231 /* HS_ItemSection.m */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		8282815F2052C219008DD231 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		828281712052CBCB008DD231 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				828281722052CBD4008DD231 /* C Methods */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		828281722052CBD4008DD231 /* C Methods */ = {
+			isa = PBXGroup;
+			children = (
+				828281742052CBD4008DD231 /* CMethods.h */,
+				828281732052CBD4008DD231 /* CMethods.m */,
+			);
+			path = "C Methods";
 			sourceTree = "<group>";
 		};
 		B3C2E37896F34D56E88D0D41 /* Frameworks */ = {
@@ -515,7 +558,6 @@
 				519E6C2B2052993300CBDE5E /* DemoViewController.xib in Resources */,
 				519E6BA420523A9600CBDE5E /* Assets.xcassets in Resources */,
 				519E6C07205294F600CBDE5E /* InfoPlist.strings in Resources */,
-				519E6C212052990400CBDE5E /* PracticeViewController.xib in Resources */,
 				519E6C012052942F00CBDE5E /* Localizable.strings in Resources */,
 				519E6BFE205292C100CBDE5E /* Resource.xcassets in Resources */,
 				519E6C262052991A00CBDE5E /* LearnViewController.xib in Resources */,
@@ -547,6 +589,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LearningProgram/Pods-LearningProgram-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -597,6 +640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8282816B2052CAFB008DD231 /* HS_ItemSection.m in Sources */,
 				519E6C3520529D4C00CBDE5E /* PracticeTableViewCell.m in Sources */,
 				519E6BFC20528D0900CBDE5E /* HS_TabBarTransitionAnimation.m in Sources */,
 				519E6BF220526A1C00CBDE5E /* UIColor+Chameleon.m in Sources */,
@@ -605,8 +649,13 @@
 				519E6C202052990400CBDE5E /* PracticeViewController.m in Sources */,
 				519E6BF620528C5300CBDE5E /* HS_TabBarController.m in Sources */,
 				519E6BF120526A1C00CBDE5E /* UIColor+ChameleonPrivate.m in Sources */,
+				828281622052C607008DD231 /* HS_TableViewController.m in Sources */,
+				828281752052CBD4008DD231 /* CMethods.m in Sources */,
+				8282817D2052DC29008DD231 /* AddressPickerViewController.m in Sources */,
+				828281682052CADC008DD231 /* HS_TableViewArrowItem.m in Sources */,
 				519E6C252052991A00CBDE5E /* LearnViewController.m in Sources */,
 				519E6BAA20523A9600CBDE5E /* main.m in Sources */,
+				828281652052CA48008DD231 /* HS_TableViewItem.m in Sources */,
 				519E6B9C20523A9600CBDE5E /* AppDelegate.m in Sources */,
 				519E6BE720525F6200CBDE5E /* HS_NavigationController.m in Sources */,
 				519E6BE220525EAD00CBDE5E /* HS_BaseViewController.m in Sources */,

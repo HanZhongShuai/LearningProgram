@@ -7,10 +7,9 @@
 //
 
 #import "PracticeViewController.h"
-#import "PracticeTableViewCell.h"
-@interface PracticeViewController ()<UITabBarDelegate, UITableViewDataSource>
+#import "AddressPickerViewController.h"
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@interface PracticeViewController ()
 
 @end
 
@@ -19,39 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = NSLocalizedString(@"tab.practice", nil);
-    [self buildUI];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)buildUI
-{
-    [self.tableView registerNib:[UINib nibWithNibName:@"PracticeTableViewCell" bundle:nil] forCellReuseIdentifier:@"PracticeTableViewCell"];
-}
-
-#pragma mark - UITableViewDelegate
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 50;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
     
-}
-
-#pragma mark - UITableViewDataSource
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 1;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    PracticeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PracticeTableViewCell" forIndexPath:indexPath];
-    cell.lblTitle.text = @"test";
-    return cell;
+    HS_TableViewArrowItem *item1 = [HS_TableViewArrowItem itemWithTitle:@"省市区与时间三级联动" subTitle:nil];
+    item1.arrowVc = [AddressPickerViewController class];
+    
+    HS_ItemSection *section0 = [HS_ItemSection sectionWithItems:@[item1] andHeaderTitle:nil footerTitle:nil];
+    
+    [self.sections addObject:section0];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

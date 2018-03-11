@@ -20,4 +20,7 @@ target 'LearningProgram' do
     pod 'WebViewJavascriptBridge'
     # 唯一设备标识
     pod 'FCUUID'
+    
+    # 三级联动 时间 地址
+    pod 'MOFSPickerManager'
 end
